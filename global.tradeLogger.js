@@ -18,7 +18,7 @@ module.exports = class TradeLogger {
             if(lastProcessedTick < transaction.time) lastProcessedTick = transaction.time;
 
             let sender = transaction.sender && transaction.sender.username;
-            if(sender === "NobodysNightmare") continue;
+            if(sender === "Arkasizer") continue;
 
             if(transaction.order) sender = "Market";
             if(!sender) continue;
@@ -36,7 +36,7 @@ module.exports = class TradeLogger {
             if(lastProcessedTick < transaction.time) lastProcessedTick = transaction.time;
 
             let recipient = transaction.recipient && transaction.recipient.username;
-            if(recipient === "NobodysNightmare") continue;
+            if(recipient === "Arkasizer") continue;
 
             if(transaction.order) recipient = "Market";
             if(!recipient) continue;
