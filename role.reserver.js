@@ -10,8 +10,8 @@ module.exports = {
 
         let result = creep.reserveController(target);
         if(result == OK) {
-          if(!target.sign || target.sign.username !== "NobodysNightmare") {
-            creep.signController(target, "Owned by Y Pact.");
+          if(!target.sign || target.sign.username !== "Arkasizer") {
+            creep.signController(target, "I be here.");
           }
         } else if(result == ERR_NOT_IN_RANGE) {
             creep.goTo(target);
