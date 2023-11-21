@@ -1,4 +1,4 @@
-# NobodysNightmare's Screeps AI
+# Screeps AI
 
 This is my personal AI for the computer game [Screeps](https://screeps.com).
 
