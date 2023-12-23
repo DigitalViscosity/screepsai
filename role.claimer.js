@@ -13,8 +13,8 @@ module.exports = {
         target = creep.room.controller;
         let claimResult = creep.claimController(target);
         if(claimResult == OK) {
-            if(!target.sign || target.sign.username !== "NobodysNightmare") {
-                creep.signController(target, "Owned by Y Pact.");
+            if(!target.sign || target.sign.username !== "Arkasizer") {
+                creep.signController(target, "I be here.");
             }
         } else if(claimResult == ERR_NOT_IN_RANGE) {
             creep.goTo(target);
